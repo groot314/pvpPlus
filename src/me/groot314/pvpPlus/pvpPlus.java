@@ -6,7 +6,7 @@ public class pvpPlus extends JavaPlugin{
 	
 	@Override
 	public void onEnable() {
-		// TODO Auto-generated method stub
+		getCommand("pvpPlus").setExecutor(new command(this));
 		super.onEnable();
 	}
 	
